@@ -1,0 +1,60 @@
+# Hospital Scheduling System - Azure App Service Dependencies
+
+# Core FastAPI stack
+fastapi>=0.104.0
+pydantic[email]>=2.5.0
+python-multipart>=0.0.6
+uvicorn[standard]>=0.24.0
+
+# HTTP and networking
+requests>=2.31.0
+httpx>=0.25.0
+
+# AI and LangChain dependencies
+langchain>=0.1.0
+langchain-openai>=0.1.0
+openai>=1.0.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+pydantic-settings>=2.0.0
+
+# Security and authentication
+passlib[bcrypt]>=1.7.4
+python-jose[cryptography]>=3.3.0
+PyJWT>=2.8.0
+
+# Database (optional - for future use)
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+
+# Caching (optional - Redis)
+redis>=5.0.0
+
+# Monitoring and logging
+structlog>=23.2.0
+prometheus-client>=0.19.0
+
+# Production WSGI/ASGI servers
+gunicorn>=21.2.0
+uvicorn[standard]>=0.24.0
+
+# Data processing and validation
+pandas>=2.1.0
+numpy>=1.25.0
+
+# JSON processing
+orjson>=3.9.0
+
+# Development dependencies
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+black>=23.9.0
+isort>=5.12.0
+flake8>=6.1.0
+mypy>=1.6.0
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.4.0
